@@ -163,7 +163,7 @@ export default function MenuEditor({
       setSha(newSha)
       setDirty(false)
       setSavedFlash(true)
-      setTimeout(() => setSavedFlash(false), 2500)
+      setTimeout(() => setSavedFlash(false), 6000)
     } catch (err) {
       setError(err instanceof GitHubApiError ? err.message : 'No se pudieron guardar los cambios.')
     } finally {
@@ -354,7 +354,11 @@ export default function MenuEditor({
 
       <div className="fixed inset-x-0 bottom-0 z-10 border-t border-espresso/10 bg-cream/95 backdrop-blur">
         <div className="mx-auto flex max-w-4xl items-center justify-end gap-3 px-6 py-4">
-          {savedFlash && <span className="font-sans text-sm text-green-700">Guardado ✓</span>}
+          {savedFlash && (
+            <span className="font-sans text-sm text-green-700">
+              Guardado ✓ — se publica en el sitio en ~1 min
+            </span>
+          )}
           {dirty && !savedFlash && (
             <span className="font-sans text-sm text-espresso/50">Cambios sin guardar</span>
           )}
