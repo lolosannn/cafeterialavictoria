@@ -6,7 +6,7 @@
     "items": [
       {
         "id": "espresso",
-        "name": "Espressoo",
+        "name": "Espresso",
         "description": "Doble shot, cuerpo intenso y crema dorada.",
         "price": "$2.800",
         "image": "https://images.unsplash.com/photo-1510707577719-ae7c14805e3a?auto=format&fit=crop&w=800&q=80"
