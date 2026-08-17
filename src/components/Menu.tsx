@@ -1,9 +1,19 @@
-import { useState } from 'react'
-import { menu } from '../data/menu'
+import { useEffect, useState } from 'react'
+import { useMenu } from '../hooks/useMenu'
 
 export default function Menu() {
-  const [activeId, setActiveId] = useState(menu[0].id)
-  const active = menu.find((c) => c.id === activeId) ?? menu[0]
+  const { categories } = useMenu()
+  const [activeId, setActiveId] = useState(categories[0]?.id)
+
+  useEffect(() => {
+    if (categories.length > 0 && !categories.some((c) => c.id === activeId)) {
+      setActiveId(categories[0].id)
+    }
+  }, [categories, activeId])
+
+  const active = categories.find((c) => c.id === activeId) ?? categories[0]
+
+  if (!active) return null
 
   return (
     <section id="menu" className="bg-cream py-24">
@@ -18,7 +28,7 @@ export default function Menu() {
         </div>
 
         <div className="mt-12 flex flex-wrap justify-center gap-2">
-          {menu.map((category) => (
+          {categories.map((category) => (
             <button
               key={category.id}
               onClick={() => setActiveId(category.id)}

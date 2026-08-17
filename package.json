@@ -6,10 +6,12 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
+    "postbuild": "cp dist/index.html dist/404.html",
     "lint": "oxlint",
     "preview": "vite preview"
   },
   "dependencies": {
+    "firebase": "^12.4.0",
     "react": "^19.2.8",
     "react-dom": "^19.2.8"
   },
