@@ -27,25 +27,11 @@
         "image": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=800&q=80"
       },
       {
-        "id": "flat-white",
-        "name": "flat oreo",
-        "description": "de galletita oreo",
-        "price": "$5.000",
-        "image": "/cafeterialavictoria/menu-images/cafes-calientes/flat-white-1787000396403.webp"
-      },
-      {
         "id": "mocha",
         "name": "Mocha",
         "description": "Espresso, chocolate semiamargo y crema batida.",
         "price": "$3.800",
         "image": "https://images.unsplash.com/photo-1578314675249-a6910f80cc4e?auto=format&fit=crop&w=800&q=80"
-      },
-      {
-        "id": "plato-1787000493213",
-        "name": "Cafe de prueba",
-        "description": "dyedbyeb",
-        "price": "5.000",
-        "image": "/cafeterialavictoria/menu-images/cafes-calientes/plato-1787000493213-1787000511998.webp"
       }
     ]
   },
