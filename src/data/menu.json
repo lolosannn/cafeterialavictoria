@@ -41,11 +41,11 @@
         "image": "https://images.unsplash.com/photo-1578314675249-a6910f80cc4e?auto=format&fit=crop&w=800&q=80"
       },
       {
-        "id": "americano",
-        "name": "Americano",
-        "description": "Espresso alargado con agua caliente, suave y limpio.",
-        "price": "$2.900",
-        "image": "https://images.unsplash.com/photo-1447933601403-0c6688de566e?auto=format&fit=crop&w=800&q=80"
+        "id": "plato-1787000493213",
+        "name": "Cafe de prueba",
+        "description": "dyedbyeb",
+        "price": "5.000",
+        "image": "/cafeterialavictoria/menu-images/cafes-calientes/plato-1787000493213-1787000511998.webp"
       }
     ]
   },
