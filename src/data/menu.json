@@ -56,13 +56,6 @@
         "tag": "Nuevo"
       },
       {
-        "id": "frappe-caramelo",
-        "name": "Frappé de caramelo",
-        "description": "Café batido con hielo, leche y caramelo artesanal.",
-        "price": "$4.200",
-        "image": "https://images.unsplash.com/photo-1461988320302-91bde64fc8e4?auto=format&fit=crop&w=800&q=80"
-      },
-      {
         "id": "affogato",
         "name": "Affogato",
         "description": "Helado de vainilla \"ahogado\" en un shot de espresso.",
@@ -90,20 +83,6 @@
         "description": "Relleno de crema de almendras y almendras fileteadas.",
         "price": "$2.800",
         "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=800&q=80"
-      },
-      {
-        "id": "pain-chocolat",
-        "name": "Pain au chocolat",
-        "description": "Hojaldre de manteca con dos barras de chocolate belga.",
-        "price": "$2.700",
-        "image": "https://images.unsplash.com/photo-1608198093002-ad4e005484ec?auto=format&fit=crop&w=800&q=80"
-      },
-      {
-        "id": "medialuna-jamon-queso",
-        "name": "Croissant jamón y queso",
-        "description": "Versión salada, gratinada con queso gruyère.",
-        "price": "$3.200",
-        "image": "https://images.unsplash.com/photo-1546548970-71785318a17b?auto=format&fit=crop&w=800&q=80"
       }
     ]
   },
@@ -133,13 +112,6 @@
         "description": "Huevo pochado, espinaca salteada y salsa holandesa.",
         "price": "$4.900",
         "image": "https://images.unsplash.com/photo-1525351484163-7529414344d8?auto=format&fit=crop&w=800&q=80"
-      },
-      {
-        "id": "tostada-ricotta-miel",
-        "name": "Tostada de ricotta y miel",
-        "description": "Ricotta cremosa, miel de campo y nueces tostadas.",
-        "price": "$4.300",
-        "image": "https://images.unsplash.com/photo-1484723091739-30a097e8f929?auto=format&fit=crop&w=800&q=80"
       }
     ]
   },
