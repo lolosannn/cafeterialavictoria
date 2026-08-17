@@ -28,10 +28,10 @@
       },
       {
         "id": "flat-white",
-        "name": "Flat White",
-        "description": "Doble espresso con microespuma bien texturizada.",
-        "price": "$3.500",
-        "image": "https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&w=800&q=80"
+        "name": "flat oreo",
+        "description": "de galletita oreo",
+        "price": "$5.000",
+        "image": "/cafeterialavictoria/menu-images/cafes-calientes/flat-white-1787000396403.webp"
       },
       {
         "id": "mocha",
